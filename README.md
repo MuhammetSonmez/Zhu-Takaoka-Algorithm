@@ -12,4 +12,4 @@ Dinamik programlama yöntemlerini kullanarak, her iki dizi arasındaki en kısa 
 En kısa yolu hesaplamak için, iki dizi arasındaki tüm olası eşleştirmeleri karşılaştırın ve en uygun olanını seçin.
 Zhu-Takaoka Algoritması, biyoinformatikteki birçok uygulama için önemli bir araçtır ve özellikle genomik dizilim analizi için kullanılır.
 
-#bu algoritma, arama algoritması olarak kullanıma uygun değildir.
+# bu algoritma, arama algoritması olarak kullanıma uygun değildir.
