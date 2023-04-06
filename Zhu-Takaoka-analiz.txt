@@ -1,0 +1,18 @@
+Algoritmanın asimptotik analizi:
+
+İlk olarak, zhu_takaoka() fonksiyonu için en kötü durumda iki iç içe döngü vardır.
+İç döngü, listenin geri kalanının işlenmesinde kullanılan iki adımdan oluşur.
+Bu adımların her biri, döngünün boyutunu en az birleştirir.
+Bu nedenle, iç döngü en fazla n kez çalıştırılabilir.
+Dış döngü, listenin boyutunu birleştirir ve her biri en az bir eleman içeren iki listeyi birbirinden ayırır.
+Bu adımların her biri, döngünün boyutunu en az birleştirir. Bu nedenle, dış döngü en fazla n kez çalıştırılabilir.
+Bu, algoritmanın en kötü durumda O(n^2) zaman karmaşıklığına sahip olduğu anlamına gelir.
+
+zhu_takaoka_for_inputs() fonksiyonu, girdinin boyutuna bağlı olarak lineer zaman karmaşıklığına sahiptir.
+Bu nedenle, bu fonksiyonun zaman karmaşıklığı O(n) dir.
+
+zhu_takaoka() fonksiyonu, en kötü durumda O(n^2) zaman karmaşıklığına sahiptir.
+zhu_takaoka_for_inputs() fonksiyonu, O(n) zaman karmaşıklığına sahiptir.
+Çünkü zhu_takaoka() fonksiyonu, girdi olarak en fazla n elemanı alır, zhu_takaoka_for_inputs() fonksiyonunun toplam zaman karmaşıklığı O(n^2) + O(n) = O(n^2) dir.
+
+Sonuç olarak, algoritmanın en kötü durumda zaman karmaşıklığı O(n^2) 'dir.
