@@ -1,0 +1,3 @@
+programda 'input()' fonksiyonu ile kullanıcıdan belirli bir dna dizilimi alınır.
+girilen inputtaki harfler 'BÜYÜK HARF OLMALIDIR'
+örneğin: 'ATGTAASGSSA'
